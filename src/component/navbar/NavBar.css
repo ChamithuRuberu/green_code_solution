@@ -1,0 +1,75 @@
+:root{
+    --mainColor:#273c75;
+
+
+}
+header{
+    background-color: rgba(17, 84, 84, 0.97);
+    height: 110px;
+}
+.container{
+    background-color: aliceblue;
+
+}
+.container-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    padding: 1px 1px;
+    margin-left: 70px;
+    margin-top: -20px;
+    text-decoration: none;
+
+}
+
+.logoT{
+
+    margin-top: -30px;
+    margin-left: 30px;
+    color: aliceblue;
+    display:ruby-base;
+    text-decoration: none;
+    font-family: 'Arial',sans-serif;
+}
+
+.logoT:hover{
+    text-decoration: none;
+}
+
+.list{
+    margin-left: 400px;
+}
+
+.listItem{
+    margin-left: 2em;
+    color: azure;
+    font-size:1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.listItem:hover{
+    text-decoration: none;
+}
+.icons{
+    margin-right: 50px;
+    color: aliceblue;
+    font-size:1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.icon:hover{
+    text-decoration: none;
+}
+.icon{
+    margin-right: 10px;
+    color: azure;
+}
+.active{
+    color: #5480f1;
+}

@@ -1,0 +1,44 @@
+
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    padding: 1em;
+    color: azure;
+
+}
+.container{
+    width: 100%;
+    align-items: center;
+}
+.row{
+    width: 100%;
+}
+.list-unstyled{
+    font-size: 15px;
+    align-items: center;
+    display: inline;
+
+}
+.list-unstyled:hover{
+    text-decoration: none;
+}
+.call:hover{
+    color: #273c75;
+}
+.list-Item{
+    color: azure;
+}
+.icon{
+    color: azure;
+}
+.icon:hover{
+    color: #273c75;
+}
+.call{
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+
+}
