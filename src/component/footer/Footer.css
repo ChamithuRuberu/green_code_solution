@@ -42,15 +42,21 @@
     display: inline-block;
 
 }
-
-@media screen and (max-width: 1024px){
-    .line{
-        width: 40%;
+@media screen and (max-width: 1280px) {
+    .list-unstyled {
+        font-size: 15px;
     }
-}
 
-@media screen and (max-width: 568px){
-    hr{
-        display: none;
+
+    @media screen and (max-width: 1010px) {
+        .list-unstyled {
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width: 1010px) {
+        .list-unstyled {
+            font-size: 8px;
+        }
     }
 }
