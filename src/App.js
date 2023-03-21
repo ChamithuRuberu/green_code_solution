@@ -1,12 +1,14 @@
 import React from 'react'
 import {Route,Routes } from 'react-router-dom'
-import AboutUs from './pages/AboutUs/AboutUs'
+
 import Contact from './pages/contact/Contact'
 import Home from './pages/Home/Home'
 import Projects from './pages/projects/Projects'
 import Services from './pages/services/Services'
 import NavBar from './component/navbar/NavBar'
 import Footer from "./component/footer/Footer";
+import AboutUs from "./pages/aboutus/AboutUs";
+
 const App = () => {
   return (
     <>

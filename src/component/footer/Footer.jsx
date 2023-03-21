@@ -15,7 +15,7 @@ function Footer() {
                         <h4 className="col">SERVICES WE OFFER</h4><br/>
                         <ul className="list-unstyled">
                             <li><NavLink exact to="/" className="list-Item">Web Application Development</NavLink></li>
-                            <li><NavLink to="/AboutUs"className="list-Item" aria-activedescendant="active">Mobile / App Development</NavLink></li>
+                            <li><NavLink to="/About"className="list-Item" aria-activedescendant="active">Mobile / App Development</NavLink></li>
                             <li><NavLink to="/Services"className="list-Item">Embedded System Development</NavLink></li>
                             <li><NavLink to="/Projects"className="list-Item">IT Consulting</NavLink></li>
                             <li><NavLink to="/Contact"className="list-Item">Quality Assurance</NavLink></li>
@@ -30,7 +30,7 @@ function Footer() {
                         <h4 className="col">QUICK LINKS</h4><br/>
                         <ul className="list-unstyled">
                             <li><NavLink exact to="/" className="list-Item">Home</NavLink></li>
-                            <li><NavLink to="/AboutUs"className="list-Item" aria-activedescendant="active">About Us</NavLink></li>
+                            <li><NavLink to="/About"className="list-Item" aria-activedescendant="active">About Us</NavLink></li>
                             <li><NavLink to="/Services"className="list-Item">Services</NavLink></li>
                             <li><NavLink to="/Projects"className="list-Item">Projects</NavLink></li>
                             <li><NavLink to="/Contact"className="list-Item">Contact</NavLink></li>

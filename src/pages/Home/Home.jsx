@@ -1,12 +1,14 @@
 import React from 'react'
+import './Home.css'
+import Hero from "../../component/hero/Hero";
 
  const Home = () => {
-  return (
-    
-   <>
-   <p>Home Page</p>
-   </>
-    
-  )
+
+    return (
+        <>
+            <Hero/>
+
+        </>
+    )
 }
 export default Home
