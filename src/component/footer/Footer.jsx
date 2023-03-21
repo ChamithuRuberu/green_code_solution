@@ -11,8 +11,8 @@ function Footer() {
         <div className="main-footer">
                 <div className="row">
                     {/* Column1 */}
-                    <div className="col">
-                        <h4>SERVICES WE OFFER</h4><br/>
+                    <div className="cols">
+                        <h4 className="col">SERVICES WE OFFER</h4><br/>
                         <ul className="list-unstyled">
                             <li><NavLink exact to="/" className="list-Item">Web Application Development</NavLink></li>
                             <li><NavLink to="/AboutUs"className="list-Item" aria-activedescendant="active">Mobile / App Development</NavLink></li>
@@ -27,7 +27,7 @@ function Footer() {
 
                     {/* Column2 */}
                     <div className="col">
-                        <h4>QUICK LINKS</h4><br/>
+                        <h4 className="col">QUICK LINKS</h4><br/>
                         <ul className="list-unstyled">
                             <li><NavLink exact to="/" className="list-Item">Home</NavLink></li>
                             <li><NavLink to="/AboutUs"className="list-Item" aria-activedescendant="active">About Us</NavLink></li>
@@ -40,7 +40,7 @@ function Footer() {
 
                     {/* Column3 */}
                     <div className="col">
-                        <h4>HAVE QUESTION?</h4><br/>
+                        <h4 className="col">HAVE QUESTION?</h4><br/>
                         <ui className="list-unstyled">
                             <li><NavLink to=""> <CallIcon className="icon"/><div className="call" >(+94) 75 6934 728</div></NavLink></li>
                              <li><NavLink to="">  <CallIcon className="icon"/><div className="call" >(+94) 75 6934 728</div></NavLink></li>
@@ -48,7 +48,7 @@ function Footer() {
                     </div>
 
                     <div className="col">
-                        <h4>Connect With Us</h4><br/>
+                        <h4 className="col">Connect With Us</h4><br/>
                         <div className="icons">
                             <NavLink to=""> <FacebookIcon className="icon"/></NavLink>
                             <NavLink to="">  <InstagramIcon className="icon"/></NavLink>
