@@ -5,6 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import './NavBar.css'
+import Technology from "../../pages/technology/Technology";
 
 const NavBar = () => {
   return (
@@ -24,7 +25,7 @@ const NavBar = () => {
                 <NavLink to="/Services"className="listItem">Services</NavLink>
                 <NavLink to="/Projects"className="listItem">Projects</NavLink>
                 <NavLink to="/Contact"className="listItem">Contact</NavLink>
-                <NavLink to="/Contact"className="listItem">Technology</NavLink>
+                <NavLink to="/Technology"className="listItem">Technology</NavLink>
 
             </div>
         </nav>

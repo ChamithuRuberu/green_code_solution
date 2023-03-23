@@ -8,6 +8,7 @@ import Services from './pages/services/Services'
 import NavBar from './component/navbar/NavBar'
 import Footer from "./component/footer/Footer";
 import AboutUs from "./pages/aboutus/AboutUs";
+import Technology from "./pages/technology/Technology";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='/Services'Component={Services}/>
       <Route path='/Projects'Component={Projects}/>
       <Route path='/Contact'Component={Contact}/>
+      <Route path='/Technology'Component={Technology}/>
     </Routes>
       <Footer/>
   </>
